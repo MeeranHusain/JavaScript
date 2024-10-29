@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>27_alert_prompt_confirm</title>
+</head>
+
+<body>
+    <h1>hello world</h1>
+
+<script>
+    //--- prompt, alert and confirm stop or pause the execution of the script in html page ---
+
+    alert("hello your scripts works");
+    let a = prompt("Enter a here!","786");    // This prompt take value as an string. we can enter the default value like as we already given '789'.
+
+    a = Number.parseInt(a);             // Number.parseInt convert string into integar.
+    
+    //document.write(a);                  // document.write print the output on html page.
+    alert("The type of a is: " + typeof a);     // typeof shows what type of data is this.
+
+    let write = confirm("Do you want to write it to the page")  // confirm is like a small dialogue box which shows true or false.
+    if(write){
+        document.write(a);
+    }
+    else{
+        document.write(" Please allow me to write")
+    }
+
+
+</script>
+</body>
+
+</html>
