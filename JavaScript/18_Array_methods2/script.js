@@ -35,9 +35,9 @@ console.log(num)
 // 🔧 Modification Methods
 // Method	                Description	                            Example
 // -------------------------------------------------------------------------------
-// sort()	    Sorts array (alphabetically by default)         arr.sort()
-// reverse()	Reverses array	                                arr.reverse()
+// sort()	      Sorts array (alphabetically by default)         arr.sort()
+// reverse()	  Reverses array	                                arr.reverse()
 // slice()	    Returns a portion (doesn’t change original)	    arr.slice(1, 3)
 // splice()	    Removes/replaces/adds elements	                arr.splice(2, 1, "new")
-// fill()	    Replaces all values with one value	            arr.fill(0)
-// copyWithin()	Copies part of array to another position	    arr.copyWithin(0, 2)
+// fill()	      Replaces all values with one value	            arr.fill(0)
+// copyWithin()	Copies part of array to another position	      arr.copyWithin(0, 2)
