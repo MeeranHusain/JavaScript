@@ -30,3 +30,14 @@ let num = [551, 22, 3, 14, 5, 6, 7, 8, 229];
 let numSlice = num.slice(3, 5)     // slice does'nt modify original array, it gives new array
 console.log(numSlice)
 console.log(num)
+
+
+// 🔧 Modification Methods
+// Method	                Description	                            Example
+// -------------------------------------------------------------------------------
+// sort()	    Sorts array (alphabetically by default)         arr.sort()
+// reverse()	Reverses array	                                arr.reverse()
+// slice()	    Returns a portion (doesn’t change original)	    arr.slice(1, 3)
+// splice()	    Removes/replaces/adds elements	                arr.splice(2, 1, "new")
+// fill()	    Replaces all values with one value	            arr.fill(0)
+// copyWithin()	Copies part of array to another position	    arr.copyWithin(0, 2)
